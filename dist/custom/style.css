@@ -1,0 +1,243 @@
+/* Fabricio Oliveira Portfolio css custom */
+
+/* html */
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+/* backgrounds */
+.bg-white {
+    background-color: #ffffff;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+.bg-black-2 {
+    background-color: #1c1c1c;
+}
+
+.bg-white-light {
+    background-color: #F5F5F5;
+}
+
+
+.bg-blue-light {
+    background-color: #3f51b5;
+}
+
+.bg-blue-light-2 {
+    background-color: #303e8b;
+}
+
+/* .backgrounds */
+
+
+/* main */
+#main {
+    width: 100%;
+    padding: 0px 0px;
+    margin: 0 auto;
+}
+
+/* .main */
+
+
+
+/* main navbar*/
+#main > #navbar {
+    width: 100%;
+    box-shadow: 0.1px 0.1px 8px rgba(0, 0, 0, 0.1);
+}
+
+#main > #navbar .logo-mini {
+    width: auto;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    display: none;
+}
+
+#main > #navbar .logo {
+    width: auto;
+    margin: 0 auto;
+    padding: 0px 0px;
+    display: block;
+}
+
+#main > #navbar form input {
+    background: #303e8b;
+    margin: 0 auto;
+    padding: 5px 20px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* .main navbar*/
+
+
+
+/* main navbar options*/
+#main > #navbar-options {
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: none;
+    border: 0px;
+    padding: 5px 0px;
+}
+
+#main > #navbar-options .navbar-toggler {
+    color: #ffffff;
+    background: transparent;
+    border: 0px;
+}
+
+
+#main > #navbar-options .nav-flex {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#main > #navbar-options .nav-flex li a {
+    font-size: 12px;
+    font-weight: 800;
+    color: #bebebe;
+}
+
+/* .main navbar options*/
+
+
+
+/* main header */
+#main > #header {
+    width: auto;
+    margin: 0 auto;
+    padding: 0px 0px;
+}
+
+
+
+/* main content */
+#main > #content {
+    padding: 0px 0px;
+}
+
+#main > #content .title {
+    width: 100%;
+    margin: 0 auto;
+    background: #FFF;
+    padding: 110px 0px 50px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#main > #content .flex-row {
+    display: flex;
+}
+
+#main > #content .card {
+    margin: 0 auto;
+    padding: 20px 20px 0px 20px;
+    border-radius: 0px;
+    border: 0px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#main > #content .card .card-img {
+    width: 100%;
+    margin: 10px auto;
+    padding: 0px 0px;
+    border-radius: 0px;
+}
+
+#main > #content .card:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#main > #content .card .card-title {
+    margin: 5px 0px;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#main > #content .card .card-subtitle {
+    margin: 8px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#main > #content .card .card-desc {
+    margin: 5px 0px;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#main > #content .card .card-price {
+    margin: 8px 0px 0px 0px;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-align: center;
+    color: royalblue;
+}
+
+/* main content */
+
+
+
+/* main footer */
+#main > #footer {}
+
+
+
+@media only screen and (max-width: 500px) {
+
+    #main > #navbar .logo {
+        width: 90%;
+        margin: 0px 0px;
+        padding: 0px 0px;
+        display: none;
+    }
+
+    #main > #navbar .logo-mini {
+        width: 90%;
+        margin: 0px 0px;
+        padding: 0px 0px;
+        display: block;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 350px) {
+
+    #main > #navbar .logo-mini {
+        width: auto;
+        margin: 0 auto;
+        padding: 0px 0px;
+        display: block;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    #main > #navbar form input {
+        width: 95%;
+        margin: 0 auto;
+        padding: 5px 5px;
+    }
+
+
+}
